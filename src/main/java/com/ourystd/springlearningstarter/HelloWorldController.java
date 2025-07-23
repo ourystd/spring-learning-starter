@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-    @Value("${SERVER_PORT}")
+    @Value("${server.port}")
     private String serverPort;
     private final Environment env;
 
