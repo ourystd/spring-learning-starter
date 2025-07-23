@@ -1,6 +1,6 @@
 spring:
   application:
-    name: spring-learning-starter
+    name: Spring Learning Starter
 
 server:
-  port: 8080
+  port: ${SERVER_PORT:8080}
